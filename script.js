@@ -67,7 +67,7 @@ const deleteItem=(taskid)=>{
   xhr.onload=function(){
     if(xhr.status==200){
       FetchTask();
-      alert(`<p>Task Deleted Succesfully</p>`)
+      alert(`Task Deleted Succesfully`)
     }
  
   }
