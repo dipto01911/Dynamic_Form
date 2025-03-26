@@ -1,0 +1,37 @@
+
+ .form{
+    width: 40%;
+    margin: 0px auto;
+ }
+ .button1{
+ margin-left: 35%;
+ padding: 7px 30px;
+ background-color: goldenrod;
+ border-radius: 10px;
+ margin-bottom: 30px;
+ }
+
+ .item{
+    border: 2px solid black;
+ }
+ 
+ .edit-btn,.delete-btn{
+   background-color: goldenrod;
+   padding: 7px 15px;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+
+ .edit-button1{
+   background-color: goldenrod;
+   padding: 7px 15px;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+
+ .edit_button2{
+   background-color:green;
+   padding: 7px 15px;
+   border-radius: 10px;
+   cursor: pointer;
+ }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-center text-danger" style="margin-top: 30px; margin-bottom: 20px;">EDIT OPERATION</h1>
+  <div class="container">
+    <div class="row">
+        <div class="col">
+            <form class="form" id="edit_form">
+                <marquee><h1 class="text-success" style="margin-top:5px;">Updates User</h1></marquee>
+                <label for="edit_name" class="form-label">Name</label>
+                <input type="text" id="edit_name" class="form-control" placeholder="Enter name" >
+              
+                <label for="edit_email" class="form-label">Email</label>
+                <input type="text" id="edit_email" class="form-control" placeholder="Enter email" readonly>
+             
+                <label for="edit_uni" class="form-label">University</label>
+              <input type="text" id="edit_uni" class="form-control"placeholder="Enter University" >
+     <br/>     
+               <div class="d-flex gap-4" style="margin-left: 25%;">
+                <button class="edit-button1" id="GoBack">GoBack</button>
+                <button class="edit_button2" type="submit" >Update</button>
+               </div>
+             
+            </form>
+           
+        </div>
+    </div>
+  </div>
+<script src="edit.js"></script>
+</body>
+</html>
